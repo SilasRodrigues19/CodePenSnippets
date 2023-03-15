@@ -1,0 +1,19 @@
+---
+export interface Props {
+	title?: string;
+	tag: string;
+	link: URL;
+	linkText?: string;
+}
+
+const { title, tag, link, linkText} = Astro.props;
+---
+
+<div class="wrapper">
+	<h2>{title}</h2>
+	<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash={tag}
+		data-user="SilasRodrigues19"><span>See the Pen <a href={link + '/' + tag}>
+			{linkText}</a> by Silas (<a href="https://codepen.io/SilasRodrigues19">@SilasRodrigues19</a>)
+		on <a href="https://codepen.io">CodePen</a>.</span>
+	</p>
+</div>

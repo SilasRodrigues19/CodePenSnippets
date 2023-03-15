@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Pen from '../components/Pen.astro';
+
+const baseUrl = new URL('https://codepen.io/SilasRodrigues19/pen');
+
+---
+
+<Layout title="Snippets CodePen.">
+	<main>
+		<h1>CodePen Snippets</h1>
+		<p>Trechos de código feitos no CodePen</p>
+		<Pen title="Modal feito com a tag dialog e sem nenhum framework ou biblioteca, apenas HTML CSS e JavaScript." tag="abGxzdJ" link={baseUrl} linkText="Dialog modal" />
+		<Pen title="Animação de menu mobile" tag="dydVxoM" link={baseUrl} linkText="Animated Hamburger Menu" />
+		<Pen title="Animação de itens de acordo com o rolamento da página com Intersection Observer" tag="JjvpNYq" link={baseUrl} linkText="IntersectionObserver" />
+		<Pen title="Helper para Sweet alert" tag="oNqGVmG" link={baseUrl} linkText="Sweet Helper" />
+		<Pen title="Efeito máquina de escrever com CSS puro" tag="BadmedR" link={baseUrl} linkText="Typing CSS" />
+		<Pen title="Fullpage hover effect" tag="mdMebep" link={baseUrl} linkText="Fullpage background hover" />
+		<Pen title="Validação com &quot;botão irritante&quot;" tag="ExLqJvq" link={baseUrl} linkText="Annoying Button" />
+		<Pen title="Tooltips sem JavaScript" tag="JjaLBLW" link={baseUrl} linkText="Tooltips without JavaScript" />
+	</main>
+</Layout>
