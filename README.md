@@ -71,10 +71,11 @@ Technologies used in the project.
    ```sh
    git clone https://github.com/SilasRodrigues19/CodePenSnippets.git
    ```
-2. Access the folder with the following command: 
-    ```sh
-    cd CodePenSnippets
-    ```
+2. Access the folder with the following command:
+
+   ```sh
+   cd CodePenSnippets
+   ```
 
 3. Install dependencies
    ```sh
