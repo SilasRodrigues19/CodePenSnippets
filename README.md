@@ -59,7 +59,6 @@ Technologies used in the project.
 ### Frameworks
 
 - [Astro](https://astro.build/)
-- [Tailwind CSS](https://tailwindcss.com)
 
 <!-- GETTING STARTED -->
 
